@@ -19,7 +19,7 @@ p{
 .span-color{
     color:#3aa2f1;
 }
-section{
+.flexdisplay{
     display: flex;
 }
 .half-width{
@@ -90,4 +90,32 @@ section{
 #hero-part{
     background-image: url(images/background\ 1.PNG);
     background-repeat: no-repeat;
+}
+
+/*************************************************** */
+
+.about-section{
+    background-image: url(images/background\ 2.PNG);    
+}
+
+.about-image img{
+    width: 60%;
+    padding-left:15%;
+}
+.about-div{
+    padding-top: 8%;
+}
+
+.about-div a{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#3aa2f1;
+}
+.about-div a:hover{
+    background-color: #3aa2f1;
+    color:white;
+    border-radius: 5px;
 }
