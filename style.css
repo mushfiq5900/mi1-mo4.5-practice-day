@@ -1,2 +1,93 @@
 /* Light Color: #4EC9F5
-Deep Color: #1B75BC */
+Deep Color: #3aa2f1 */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    line-height:.5;
+}
+h2{
+    font-size: 30px;
+    line-height:.5;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+.span-color{
+    color:#3aa2f1;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.menu-sec{
+    padding-top: 20px;
+}
+.menu-sec img{
+    height: 80px;
+    width: 80px;
+    padding-left: 30%;
+}
+.menu-div{
+    margin-top: 20px;
+}
+.menu-div a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.menu-div a:hover{
+    color: #3aa2f1;
+}
+.herobtn{
+    margin-top: 50px;
+}
+.herobtn a:first-child{
+    text-decoration: none;
+    background-color: #3aa2f1 ;
+    padding: 10px 40px;
+    font-weight: 500;
+    color: blanchedalmond;
+    font-size: 20px;
+    border: 2px solid #3aa2f1; 
+    border-radius: 6px;
+}
+.herobtn a:first-child:hover{
+    color: #3aa2f1;
+    background-color: white;
+}
+.herobtn a:last-child{
+    text-decoration: none;
+    background-color: #ffffff ;
+    padding: 10px 40px;
+    font-weight: 500;
+    color: #3aa2f1;
+    font-size: 20px;
+    border: 2px solid #3aa2f1;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.herobtn a:last-child:hover{
+    color: white;
+    background-color: #3aa2f1;
+}
+.intro-profile{
+    margin-top: 10%;
+    padding-left: 15%;
+}
+.hero-image img{
+    width: 95%;
+}
+
+#hero-part{
+    background-image: url(images/background\ 1.PNG);
+    background-repeat: no-repeat;
+}
