@@ -157,7 +157,7 @@ p{
 .detailbox .box3{
     margin-right: 0;
 }
-.fotter-section img{
+.footer-section img{
     width: 5%;
     padding: 1%;
     margin-left: 50%;
@@ -165,4 +165,5 @@ p{
 }
 .copyright-sec{
     margin-left: 20%;
+    color: #3aa2f1;
 }
